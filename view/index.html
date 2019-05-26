@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+  background: white;
+}
+
+.cpu {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: 1px solid black;
+  background: white;
+  margin: 100px;
+}
+
+#cpu {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: green;
+}
+
+#text {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  color: black;
+  bottom: -30px;
+  position: absolute;
+  font-size: 16px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="cpu">
+  <div id="cpu"></div>
+  <div id="text"></div>
+</div>
+
+<script src="cpu.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "displayName": "CPU Usage",
+  "main": "index.js",
+  "view": "view",
+  "icon": "cpu.png",
+  "dependencies": {
+    "cpu-stat": "^2.0.1"
+  }
+}
